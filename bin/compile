@@ -58,5 +58,5 @@ fi
 
 echo "Building app" | arrow
 cd $BUILD_DIR
-$NIMBLE_BIN install jester
+$NIMBLE_BIN install jester --accept
 $NIM_BIN build.nims
